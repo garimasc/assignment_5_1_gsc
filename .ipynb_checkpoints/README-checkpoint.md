@@ -16,10 +16,10 @@ The first step was to load the data, and investigate it for any missing/problema
 Based on the prompts provided in the starter notebook, we looked at the different factors that might affect the chances of a coupon being accepted. The first few things that we looked at were the driving direction, distance to coupon venue, age of customer, and the weather. 
 
 **Longer distance to coupon venue decreases chances of acceptance**
-
+<img src="images/distance_to.png">
 
 **Customers more likely to accept coupons when the weather is good**
-[<img src="images/weather.png">]
+<img src="images/weather.png">
 
 ## Conclusion and Next Steps
 
