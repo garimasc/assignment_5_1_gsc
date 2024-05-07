@@ -31,10 +31,18 @@ If a customer never visits a bar, his chance of accepting a bar coupon is just 1
 But this relationship is not the same across different types of coupons. 
 <img src="images/bar.png">
 
+### Complex Relationships Between Different Variables
 By now, we have successfully demonstrated that there are many factors that can be used to differentiate between customers that accept a coupon or not. But acceptance rate has a complex relationship with all of the variables that can influence the decision.
+
+In an earlier chart, we had seen that the acceptance rate for CoffeeHouse coupons decreases with age. When we look at this data, durther segmented by gender, we see that this happens only among male customers. Male customer under the age of 21 are more than 80% likely to accept coupons from a CoffeeHouse, whereas the acceptance rate among female customers of various age groups remains fairly constant at around 50%.
+<img src="images/coffeehouse.png">
+
+We are sure that if we are to explore these results further, we can find similar trends in coupons of other restaurant types as well.
 
 ## Conclusion and Next Steps
 Our visualization skillset has helped us identify clear differences in the profiles of customers that have accepted or declined a coupon. But in this paradigm, we cannot visualize the impact of more than 2 factors at the same time. And we have seen that the relationship between acceptance rate and age, income, coupon type, etc is a lot more complex.
 As a next step, we should explore univariate and multi-variate models that can take into account the impact of more than 1 fatcor, and possibly even the relationship between them!
 
+## Link to jupyter-notebook
+All these steps and results are further eloborated upon in the attached jupyter-notebook: [a relative link](gsc_submission.ipynb)
 
