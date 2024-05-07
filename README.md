@@ -21,8 +21,20 @@ Based on the prompts provided in the starter notebook, we looked at the differen
 **Customers more likely to accept coupons when the weather is good**
 <img src="images/weather.png">
 
-## Conclusion and Next Steps
+**Age impacts the rate of acceptance of coupon**
+Here the results are not as straightforward. While the total rate of acceptance shows a downward trend as age increases, we can see that the acceptance rate for certain types of coupons such as CarryAway and RestaurantLessThan20 actually stays the same with age, with the former having a jump in acceptance rate for 50+ customers.
+<img src="images/age_type.png">
 
-We have clearly identified that there is no single factor that can help us accurately determine the probability of a coupon being accepted.
+**Acceptance rate increases if a customer visits that type of restaurant frequently**
+If a customer never visits a bar, his chance of accepting a bar coupon is just 18%. However, if the customer goes to the bar more than 8 times on average, the acceptance rate increases to 72%. 
+
+But this relationship is not the same across different types of coupons. 
+<img src="images/bar.png">
+
+By now, we have successfully demonstrated that there are many factors that can be used to differentiate between customers that accept a coupon or not. But acceptance rate has a complex relationship with all of the variables that can influence the decision.
+
+## Conclusion and Next Steps
+Our visualization skillset has helped us identify clear differences in the profiles of customers that have accepted or declined a coupon. But in this paradigm, we cannot visualize the impact of more than 2 factors at the same time. And we have seen that the relationship between acceptance rate and age, income, coupon type, etc is a lot more complex.
+As a next step, we should explore univariate and multi-variate models that can take into account the impact of more than 1 fatcor, and possibly even the relationship between them!
 
 
