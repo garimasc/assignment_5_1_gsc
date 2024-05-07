@@ -44,5 +44,5 @@ Our visualization skillset has helped us identify clear differences in the profi
 As a next step, we should explore univariate and multi-variate models that can take into account the impact of more than 1 fatcor, and possibly even the relationship between them!
 
 ## Link to jupyter-notebook
-All these steps and results are further eloborated upon in the attached jupyter-notebook: [a relative link](gsc_submission.ipynb)
+All these steps and results are further eloborated upon in the attached jupyter-notebook: [Notebook](gsc_submission.ipynb)
 
